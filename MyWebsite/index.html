@@ -4,33 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mehmet Kaymakcı</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        progress[value]
+        {
+            appearance: none;
+            width: 500px;
+            height: 10px;
+        }
+        progress[value]::-webkit-progress-bar
+        {
+            background-color: white;
+        }
+    </style>
 </head>
 <body>
     <div id="hero">
         <video autoplay loop muted>
             <source src="matrix.webm" type="video/mp4">
         </video>
-
         <div class="content">
             <div class="container">
                 <img src="me3.jpg" alt="me" width="275" height="275">                
-                <h1>ABOUT ME</h1>
-                <p>Hello, my Mehmet.I'm a game developer.</p>
+                <h1>ABOUT ME&#128511</h1>
+                <p>I have a passion for <strong>games</strong> and <strong>technology</strong> since I was little.Then I met the magical world of <strong>software</strong>.The first programming language I met was <strong>python</strong>.</p>
                 <a href="https://play.google.com/store/apps/dev?id=6091067287605056935&hl=tr" target="_blank"> 
-                    <image src="playstore.png" alt="playstore" width="100" height="100" >
+                    <img src="playstore.png" alt="playstore" width="50" height="50">
                 </a>
-            </div>  
+                &#160;&#160;
+                <a href="https://github.com/Darkboy00" target="_blank"> 
+                    <img src="github.png" alt="github" width="50" height="50">
+                </a>
+                &#160;&#160;
+                <a href="https://medium.com/@mehmetkaymakci2002" target="_blank"> 
+                    <img src="medium.png" alt="medium" width="50" height="50">
+                </a>
+                &#160;&#160;
+                <a href="https://darkboy00.itch.io/" target="_blank"> 
+                    <img src="itch-io.png" alt="itch-io" width="50" height="50">
+                </a>
+                &#160;&#160;
+                <a href="https://www.youtube.com/channel/UC1U7w6NhypeYcTAebkHACeA" target="_blank"> 
+                    <img src="youtube.png" alt="youtube" width="50" height="50">
+                </a>
+                <h1>MY SKILLS&#9889;</h1>
+                <label style="color:white" for="file">Unity&#160;&#160;&#160;&#160;&#160;&#160;</label>
+                <progress id="file" value="60" max="100">60%</progress>
+                <br>
+                <label style="color:white" for="file">C#&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label>
+                <progress id="file" value="30" max="100">30%</progress>
+                <br>
+                <label style="color:white" for="file">PYTHON</label>
+                <progress id="file" value="40" max="100">40%</progress>
+                <br>
+                <label style="color:white" for="file">HTML5&#160;&#160;&#160;</label>
+                <progress id="file" value="10" max="100">10%</progress>
+                <br>
+                <label style="color:white" for="file">CSS&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</label>
+                <progress id="file" value="6" max="100">6%</progress>
+                <h1>INTERESTS&#127775</h1>
+                <a href="https://tr.wikipedia.org/wiki/Pok%C3%A9mon" target="blank"><img src="thunderbolt-pikachu.gif" alt="thunderbolt-pikachu" width="200" height="175"></a>
+            </div>
         </div>
     </div>
-    <style>
-        img
-        {
-            border-radius:50%;
-            border:1px solid black;
-            object-fit: cover;
-        }
-    </style>
 </body>
 </html>
